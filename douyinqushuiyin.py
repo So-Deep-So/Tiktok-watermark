@@ -17,7 +17,7 @@ api = flask.Flask(__name__)
 @api.route('/api', methods=['get'])
 def qushuiyin():
     q_url = flask.request.args.get('url')
-    data = {"status": 115, "msg": "\u4f1a\u5458\u7b49\u7ea7\u4e0d\u8db3", "data": {"title": "", "url": "", "img": ""}}
+    data = {"status": 115, "msg": "\u89e3\u6790\u51fa\u73b0\u9519\u8bef\uff01", "data": {"title": "", "url": "", "img": ""}}
     if q_url:
         pat = '(https://v.douyin.com/.*?/)'
         url = re.compile(pat).findall(q_url)[0]  # 正则匹配分享链接
