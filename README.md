@@ -1,9 +1,10 @@
 1、安装依赖模块
 
-pip3 install flask
+# pip3 install flask
 
 2、启动
-nohup python3 douyinqushuiyin.py &
+
+# nohup python3 douyinqushuiyin.py &
 
 3、访问
 http://127.0.0.1:8888/api?url=抖音复制的链接
