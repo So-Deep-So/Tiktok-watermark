@@ -7,6 +7,7 @@
 # nohup python3 douyinqushuiyin.py &
 
 3、访问
+
 http://127.0.0.1:8888/api?url=抖音复制的链接
 
 4、访问测试
